@@ -36,7 +36,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   }
   catch(error) {
     console.log(error)
-    return res.status(422).send(' Hey There! looks like image_url is not filtered')
+    return res.status(422).send(' Hey There! looks like image_url is not filtered/unfiltered')
   }
 });
   // QUERY PARAMATERS
